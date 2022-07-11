@@ -1,5 +1,5 @@
 # login_system
-This Application is use Django, JWT, Djoser
+This Application Backend is use Django, JWT, Djoser and for frontend use ReactJs
 
 Requierment :
 # pip install:
@@ -9,6 +9,7 @@ Requierment :
   - djoser
   - psycopg2
   - psycopg2-binary
+  - pillow
 
 # npm install --save:
   - react-router-dom

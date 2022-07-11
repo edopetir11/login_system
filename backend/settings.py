@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'absensi',
         'USER': 'postgres',
         'PASSWORD': 'admin',
-        'HOST': 'locahost',
+        'HOST': 'localhost',
         'PORT': 5433
     }
 }
@@ -171,6 +171,8 @@ DJOSER = {
         'user_delete': 'djoser.serializers.UserDeleteSerializer',
     }
 }
+
+AUTH_USER_MODEL = 'accounts.UserAccount'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
